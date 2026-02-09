@@ -44,11 +44,11 @@ CREATE TABLE IF NOT EXISTS Estudiantes (
     correo VARCHAR(100) NOT NULL
 );
 
--- Opcional: Insertar datos de ejemplo (puedes comentar estas líneas si no deseas datos iniciales)
--- INSERT INTO Estudiantes (nombres, apellidos, edad, carrera, semestre, correo) VALUES
--- ('Juanito Marck', 'Sanchez Gonzales', 20, 'Economia', 2, 'juanito@gmail.com'),
--- ('Maria Antoneta', 'Carlos Mercedez', 20, 'Medicina', 4, 'maria@gmail.com'),
--- ('Alan Andres', 'Carmano Soler', 20, 'Ingenieria Civil', 3, 'alan@gmail.com');
+/*Opcional: Insertar datos de ejemplo (puedes comentar estas líneas si no deseas datos iniciales)
+INSERT INTO Estudiantes (nombres, apellidos, edad, carrera, semestre, correo) VALUES
+	('Juanito Marck', 'Sanchez Gonzales', 20, 'Economia', 2, 'juanito@gmail.com'),
+    ('Maria Antoneta', 'Carlos Mercedez', 20, 'Medicina', 4, 'maria@gmail.com'),
+    ('Alan Andres', 'Carmano Soler', 20, 'Ingenieria Civil', 3, 'alan@gmail.com');*/
 
 -- Verificar que la tabla se creó correctamente
 SELECT * FROM Estudiantes;
